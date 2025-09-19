@@ -1,0 +1,41 @@
+.about {
+  width: 100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTop {
+  width: 100%;
+  height:400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.aboutBottom p {
+  width: 800px;
+  height: 50%;
+  font-family: cursive;
+  
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 60px;
+  font-family: cursive;
+  color: black;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
